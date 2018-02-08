@@ -1,0 +1,13 @@
+# 1.首先我们要把配置抽出来，用yaml文件放配置。所以我们要在config层添加配置文件config.yml，在utils层添加file_reader.py与config.py来管理。——怎样从0开始搭建一个测试框架_1
+# 2.抽出url
+# 3.抽出日志格式
+
+URL: http://www.baidu.com
+log:
+  file_name: ceshi.log
+  backup: 5
+  # 日志输出级别
+  console_level: WARNING
+  file_level: DEBUG
+  # 日志输出格式
+  pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

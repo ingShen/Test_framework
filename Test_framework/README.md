@@ -1,0 +1,10 @@
+根据此博客学习(http://blog.csdn.net/huilan_same)
+目录结构
+Test_framework
+    |--config(配置文件)
+    |--data(数据文件)
+    |--drivers(驱动)
+    |--log(日志)
+    |--report(报告)
+    |--test(启动脚本)
+    |--utils(公共方法)
