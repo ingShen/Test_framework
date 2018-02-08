@@ -1,4 +1,5 @@
 根据此博客学习(http://blog.csdn.net/huilan_same)
+<pre>
 目录结构
 Test_framework
     |--config(配置文件)
@@ -8,3 +9,4 @@ Test_framework
     |--report(报告)
     |--test(启动脚本)
     |--utils(公共方法)
+</pre>
